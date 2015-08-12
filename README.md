@@ -11,8 +11,8 @@ start by importing the API
 
 The loader should consist of two function:
 
-	* `accept_file(file)` returns if the loader can parse the file
-	* `load_file(file, doc)` loads the file into the document provided using `writeByte()`, `push_proc()`, `processor_type`.
+* `accept_file(file)` returns if the loader can parse the file
+* `load_file(file, doc)` loads the file into the document provided using `writeByte()`, `push_proc()`, `processor_type`.
 
 
 Requirements
